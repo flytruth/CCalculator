@@ -16,10 +16,7 @@ int main()
     std::cout << "Please Enter side B: ";
     std::cin >> b;
 
-    pow(a, 2);
-    pow(b, 2);
-
-    sqrt(a + b);
+    c = sqrt(pow(a, 2) + pow(b, 2));
 
     std::cout << "Side C:" << c;
 
